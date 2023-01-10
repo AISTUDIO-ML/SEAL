@@ -19,7 +19,6 @@ dotnet/tests/SEALNetTest.csproj
 !dotnet/examples/SEALNetExamples.csproj.in
 dotnet/examples/SEALNetExamples.csproj
 CMakeSettings.json
-.vscode
 
 # WebAssembly Output
 seal_wasm.js
@@ -267,11 +266,6 @@ gradle-app.setting
 android/.idea/
 
 #### Visual Studio Code ####
-.vscode/*
-#!.vscode/settings.json
-#!.vscode/tasks.json
-#!.vscode/launch.json
-#!.vscode/extensions.json
 *.code-workspace
 # Local History for Visual Studio Code
 .history/
@@ -637,3 +631,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
